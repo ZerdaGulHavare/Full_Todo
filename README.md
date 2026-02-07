@@ -68,4 +68,3 @@ curl -X DELETE http://localhost:3000/api/todos/1
 
 ---
 
-bu benim ilk fullstack projemdir.
