@@ -4,6 +4,8 @@ Node.js (Backend) ve React (Frontend) kullanılarak geliştirilmiş, REST API mi
 
 ## 📂 Dosya Yapısı
 
+Todo-mobile eklenecektir.
+
 ```bash
 todo-project/
 ├── todo-backend/        # API Servisi (Node.js + Express + SQLite)
@@ -63,3 +65,7 @@ curl -X PUT http://localhost:3000/api/todos/1 \
 # 4. Görevi Sil (DELETE) - Örn: ID 1
 curl -X DELETE http://localhost:3000/api/todos/1
 ```
+
+---
+
+bu benim ilk fullstack projemdir.
