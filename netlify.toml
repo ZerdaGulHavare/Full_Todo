@@ -1,0 +1,15 @@
+[build]
+  # Netlify'a önce bu klasörün içine girmesini söylüyoruz
+  base = "todo-frontend"
+
+  # Çıktı klasörümüzün neresi olduğunu söylüyoruz (Vite için dist)
+  publish = "dist"
+
+  # Çalıştırılacak komut
+  command = "npm run build"
+
+# React Yönlendirme Hatasını Çözen Kısım (Redirects)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
